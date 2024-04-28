@@ -1,7 +1,7 @@
 
-u
-java:S4925"-Remove this "Class.forName()", it is useless.(‘Öïâøÿÿÿÿ8ÕëÈıñ1J$bc72b740-0af7-44b9-b637-a58f97963a6a
+}
+java:S1118":Add a private constructor to hide the implicit public one.(×¼­Æ8Ãî·…ò1J$f5ed98db-5b9b-41b9-9e89-7947f3ea8ef1
 ~
-java:S6437"6Revoke and change this password, as it is compromised.(ÊÁ¥Áüÿÿÿÿ8×ëÈıñ1J$a9e2b010-0b73-45fd-a7c0-40561b953896
-m	java:S106"+Replace this use of System.out by a logger.(Ê˜ùò8ç’Ïıñ1J$28fe0835-c878-477d-94bd-3fe13f0209f7
-r	java:S106"+Replace this use of System.out by a logger.(ÕÒÔòşÿÿÿÿ8¡áĞıñ1J$5f992abe-b746-4430-b69d-08a30fcefbfe
+java:S6437"6Revoke and change this password, as it is compromised.(ÊÁ¥Áüÿÿÿÿ8×ëÈıñ1J$205674c0-9c33-4095-b982-a27a4cd55a80
+m	java:S106"+Replace this use of System.out by a logger.(Ê˜ùò8ç’Ïıñ1J$24d7edbc-6381-4ba3-b4fd-0a1bcdc1f88d
+r	java:S106"+Replace this use of System.out by a logger.(ÕÒÔòşÿÿÿÿ8¡áĞıñ1J$3b32e3e1-fa4e-4ed7-a65e-a58f41a4ce26
