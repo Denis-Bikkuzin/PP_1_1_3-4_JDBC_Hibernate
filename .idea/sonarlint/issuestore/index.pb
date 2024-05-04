@@ -419,3 +419,7 @@ w
 G.idea/sonarlint/issuestore/7/6/76beb61b86aa921f4576a485d4fb77ec300eac8e,d\8\d86d7728373cb073f7362629b1d6c371ec80aa08
 w
 G.idea/sonarlint/issuestore/7/5/75af02298d50eba18a3e110ce3b73a8cc602bb60,b\9\b937dad77356e72c840ce02de71f426877211200
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+h
+8src/main/java/jm/task/core/jdbc/service/UserService.java,f\7\f73e03c860134ada6f8799d5a94864e0d276fdf3
