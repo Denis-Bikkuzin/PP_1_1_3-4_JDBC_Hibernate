@@ -7,6 +7,10 @@ import java.util.List;
 
 public class UserServiceImpl implements UserService {
 
+    int b = 10;
+    int a = 20;
+
+
     UserDaoJDBCImpl userDaoJDBCImpl = new UserDaoJDBCImpl();
 
     public void createUsersTable() {
