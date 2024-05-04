@@ -9,6 +9,8 @@ import java.util.List;
 
 public class UserDaoJDBCImpl implements UserDao {
 
+    int b = 10;
+
     Connection connection = new Util().getConnection();
 
     public UserDaoJDBCImpl() {
