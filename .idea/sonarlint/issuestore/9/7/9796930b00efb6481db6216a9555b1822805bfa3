@@ -1,7 +1,19 @@
 
-}
-java:S1118":Add a private constructor to hide the implicit public one.(×¼­Æ8Ãî·…ò1J$9cb85ba3-5b54-4203-9ef8-e3b9b1d551f7
+¢
+java:S1104"ZMake sessionFactory a static final constant or non-public and provide accessors if needed.(à”üÿÿÿÿÿ8Âã¯ñô1J$f5090cc1-2155-491d-a218-987a4c48cff6
+|
+java:S1444"4Make this "public static sessionFactory" field final(à”üÿÿÿÿÿ8Ãã¯ñô1J$ba7a1661-5746-460a-840d-e1fcca10d00d
 ~
-java:S6437"6Revoke and change this password, as it is compromised.(ÊÁ¥Áüÿÿÿÿ8×ëÈıñ1J$28efe293-f115-4c5a-9226-cc449ea4ecfb
-m	java:S106"+Replace this use of System.out by a logger.(Ê˜ùò8ç’Ïıñ1J$d35d18c4-ec23-40e2-9633-3908da58310b
-r	java:S106"+Replace this use of System.out by a logger.(ÕÒÔòşÿÿÿÿ8¡áĞıñ1J$be10d537-7067-4129-b2f5-d3ecb69bee3f
+java:S6437"6Revoke and change this password, as it is compromised.(ÊÁ¥Áüÿÿÿÿ8Íúêô1J$dcda3d50-abea-4a46-9322-417a6201f962
+m	java:S106"+Replace this use of System.out by a logger.(Ê˜ùò8ŸÍúêô1J$9b33caae-0f38-421f-8bf2-4d738642d01c
+r	java:S106!"+Replace this use of System.out by a logger.(ÕÒÔòşÿÿÿÿ8 Íúêô1J$147ab5ba-fe98-47d8-b307-c30b93347264
+
+java:S3252,"JUse static access with "org.hibernate.cfg.AvailableSettings" for "DRIVER".(Æ²âô8¾¡—ôô1J$c9b7ebad-c43e-4bbc-8b41-c63b375f9f6b
+Š
+java:S3252-"GUse static access with "org.hibernate.cfg.AvailableSettings" for "URL".(üÖ²¥8¾¡—ôô1J$35d05158-dc0d-4149-b734-60885d5ce6ed
+‹
+java:S3252."HUse static access with "org.hibernate.cfg.AvailableSettings" for "USER".(³ãˆÏ8¿¡—ôô1J$55c1c851-7a2e-4ddb-afb3-61c153ef43e1
+
+java:S3252/"HUse static access with "org.hibernate.cfg.AvailableSettings" for "PASS".(›êŒòÿÿÿÿÿ8À¡—ôô1J$0eb9bbb7-a173-42ce-a46a-ec83860ff000
+“
+java:S32520"KUse static access with "org.hibernate.cfg.AvailableSettings" for "DIALECT".(á¶ Óıÿÿÿÿ8À¡—ôô1J$ce0704c0-9b63-4e0a-b70a-0a9180811258
