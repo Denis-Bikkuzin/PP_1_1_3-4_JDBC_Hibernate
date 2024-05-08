@@ -10,9 +10,9 @@ import java.util.List;
 
 public class UserDaoHibernateImpl implements UserDao {
 
-    SessionFactory factory = Util.getSessionFactory();
+    private static  final SessionFactory factory = Util.getSessionFactory();
 
-    Transaction transaction = null;
+    private static Transaction transaction = null;
 
     public UserDaoHibernateImpl() {
 
@@ -43,7 +43,7 @@ public class UserDaoHibernateImpl implements UserDao {
     public void dropUsersTable() {
         try (Session session = factory.openSession()) {
             session.beginTransaction();
-            session.createQuery("DELETE FROM User")
+            session.createNativeQuery("DROP TABLE IF EXISTS mydatabase.users")
                     .executeUpdate();
             session.getTransaction().commit();
 
@@ -53,7 +53,6 @@ public class UserDaoHibernateImpl implements UserDao {
             }
 
         }
-
     }
 
     @Override
@@ -100,7 +99,8 @@ public class UserDaoHibernateImpl implements UserDao {
     public void cleanUsersTable() {
         try (Session session = factory.openSession()) {
             session.beginTransaction();
-            session.createQuery("DELETE from User").executeUpdate();
+            session.createNativeQuery("TRUNCATE TABLE mydatabase.users")
+                    .executeUpdate();
             session.getTransaction().commit();
         } catch (Exception e) {
             if (transaction != null) {
